@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lay"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titlu"
+        android:text="Titlu"
+        android:textAlignment="center"
+        android:textSize="40dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autor"
+        android:text="Autor"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/comentariu"
+        android:text="Comentariu"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating"
+        android:text="Rating"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gen"
+        android:text="Gen"
+        android:textAlignment="center"
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:useDefaultMargins="true"
+        android:layout_gravity="center"
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sterge"
+            android:text="Sterge"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editeaza"
+            android:text="Editeaza"
+            />
+
+    </GridLayout>
+
+
+</LinearLayout>
